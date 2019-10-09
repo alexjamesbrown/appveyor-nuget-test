@@ -1,4 +1,8 @@
 mode: Mainline
-branches: {}
+branches:
+  feature:
+    tag: useBranchName
+  master:
+    tag: ''
 ignore:
   sha: []
