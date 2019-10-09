@@ -4,6 +4,13 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.0</TargetFramework>
     <RootNamespace>appveyor_nuget_test</RootNamespace>
+
+      <PackageId>TestNugetAppveyor</PackageId>
+      <Authors>Cohoda LTD</Authors>
+      <Description>Test description.</Description>
+      <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+      <PackageReleaseNotes>First release</PackageReleaseNotes>
+      <PackageTags>some tag</PackageTags>
   </PropertyGroup>
 
 </Project>
