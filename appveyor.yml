@@ -15,8 +15,8 @@ build_script:
 - cmd: dotnet build ./appveyor-nuget-test.csproj -c Release --disable-parallel
 - cmd: dotnet pack ./appveyor-nuget-test.csproj -c Release --output %APPVEYOR_BUILD_FOLDER%/artifacts/
 
-test_script:
-- cmd: dotnet test ./tests/SlugHub.Tests/SlugHub.Tests.csproj
-
 artifacts:
 - path: artifacts/*
+
+nuget:
+  project_feed: true
